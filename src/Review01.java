@@ -12,7 +12,7 @@ public class Review01 {
     public static int tax(int price) {
         // Calcuration of tax
         int rate = 10;
-        int tax = price / rate;
+        int tax = (int) (price * (rate * 0.01)) ;
         return tax;
 
     }
